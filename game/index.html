@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="./images/logo 6.png">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>lazy</title>
+    </head>
+    <body>
+        <div id=container><canvas id=backcanvas></canvas><canvas id=canvas></canvas>
+            <div id=load>
+              <h1>Loading</h1></div>
+            <div id=home>
+              <h1>Lazy 2048</h1>
+              <p><b>How to play:</b><br>⭐️ Drag pieces around<br>⭐️ Stack those with the same number<br>⭐️ Get to 2048 to win the game<br>⭐️ Or sit simply and do nothing😊<small>(recommended for highly lazy ones)</small></p>
+              <div id=start>NEW GAME</div>
+              <div id=menu><input type=checkbox class=opt id=m checked=checked><label for=m>Music</label><br><input type=checkbox class=opt id=s checked=checked><label for=s>Sound FX</label><br><input type=checkbox class=opt id=q checked=checked><label for=q>High Quality</label></div>
+            </div>
+            <div id=end style=display:none>
+              <h1>You win</h1>
+              <p><b>Let's party!</b><br><small>Success is commemorated; failure merely remembered</small><br>Written for js13kGames–2016</p>
+              <div id=reset>PLAY AGAIN</div>
+            </div>
+          </div>
+          <script src="./script.js"></script>
+    </body>
+</html>
